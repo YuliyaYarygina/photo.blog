@@ -1,0 +1,89 @@
+header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.navbar {
+    background: url("../img/bg-light-4857.png");
+    border-bottom: double #7abaff;
+}
+
+.container-brand {
+    display: flex;
+}
+
+.brand {
+    margin-right: auto;
+    padding: 10px;
+}
+
+.author {
+    margin-left: auto;
+    padding: 10px;
+}
+
+.header-name {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-menu {
+    border-bottom: double #7abaff;
+    display: flex;
+}
+
+.nav {
+    justify-content: flex-start;
+}
+
+.nav a {
+    padding:15px 10px;
+    text-decoration:none;
+    text-align:center;
+}
+.nav a:hover {
+    color: darkgray;
+}
+
+/* меньше 800px */
+@media all and (max-width: 800px) {
+    .nav {
+        justify-content: space-around;
+    }
+    .nav a {
+        flex-grow:1; /* растягиваться на всю ширину */
+    }
+}
+
+/* меньше 500px */
+@media all and (max-width: 500px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+.login-container {
+    margin-left: auto;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.btn_log, .btn_reg {
+    display: inline-block;
+    border: double #7abaff;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: darkslategray;
+}
+
+.menu-item-login a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 70%;
+    text-align: center;
+}

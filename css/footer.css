@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    border-top: double #7abaff;
+}
+
+.footer-right {
+    margin-right: auto;
+    padding: 10px;
+}
+
+.footer-left {
+    margin-left: auto;
+    padding: 10px;
+}

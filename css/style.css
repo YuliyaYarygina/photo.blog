@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    border-color: #FF0000;
+}
+
+body{
+    font-family: Merriweather, serif;
+    color: darkslategray;
+    margin: 0 auto;
+    background: url("../img/bg-light-4857.png");
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.navbar-brand {
+    color: darkslategray;
+}
+
+.article_home_title, .article_home_image {
+    text-align: center;
+}
+
+.article_home_text {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.article_home_image {
+    max-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+}
